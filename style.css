@@ -239,77 +239,45 @@ header {
    
 }
 
-.live-one {
+.live{
     display: flex;
     flex-direction: column;
     height: 190px;
-    justify-content: flex-end;
-    background-image: url("images/live-lessons/image-live-one.png");
-    background-repeat: no-repeat;
     padding: 22px;
-    
+    background-repeat: no-repeat;
+    justify-content: flex-end;
+}
+
+.live-one {
+    background-image: url("images/markus-spiske.png");
 }
 
 .live-two {
-    display: flex;
-    flex-direction: column;
-    height: 190px;
-    justify-content: flex-end;
     background-image: url("images/live-lessons/image-live-two.png");
-    background-repeat: no-repeat;
-    padding: 22px;
 }
 
 .live-three {
-    display: flex;
-    flex-direction: column;
-    height: 190px;
-    justify-content: flex-end;
     background-image: url("images/live-lessons/image-live-three.png");
-    background-repeat: no-repeat;
-    padding: 22px;
 }
 
 .live-four {
-    display: flex;
-    flex-direction: column;
-    height: 190px;
-    justify-content: flex-end;
     background-image: url("images/live-lessons/image-live-four.png");
-    background-repeat: no-repeat;
-    padding: 22px;
 }
 
 .live-five {
-    display: flex;
-    flex-direction: column;
-    height: 190px;
-    justify-content: flex-end;
     background-image: url("images/live-lessons/image-live-five.png");
-    background-repeat: no-repeat;
-    padding: 22px;
 }
 
 .live-six {
-    display: flex;
-    flex-direction: column;
-    height: 190px;
-    justify-content: flex-end;
+
     background-image: url("images/live-lessons/image-live-six.png");
-    background-repeat: no-repeat;
-    padding: 22px;
 }
 
 .live-seven {
-    display: flex;
-    flex-direction: column;
-    height: 190px;
-    justify-content: flex-end;
     background-image: url("images/live-lessons/image-live-seven.png");
-    background-repeat: no-repeat;
-    padding: 22px;
 }
 
 
-/****** ABA PROGRESS ******/
+
+
 
