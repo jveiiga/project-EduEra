@@ -148,7 +148,7 @@ header {
 *{box-sizing: border-box;}
 
 .container-courses {
-    display: flex;
+    display: flex;  
     border: 1px solid;
 
 }
@@ -236,7 +236,7 @@ header {
 .container-lives {
     border: 1px solid red;
     display: flex;
-   
+    padding: 64px 68px;
 }
 
 .live{
@@ -269,7 +269,6 @@ header {
 }
 
 .live-six {
-
     background-image: url("images/live-lessons/image-live-six.png");
 }
 
