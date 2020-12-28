@@ -1,0 +1,316 @@
+body {
+    margin: 0;
+    padding-top: 20px;
+    background: #503E9D;
+}
+/****** CONTAINER TOTAL ******/
+
+.container-total {
+    max-width: 1500px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+/****** CONTAINER DIVISION ******/
+
+.container-division {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+}
+
+/****** CONTAINER DIVISION ONE ******/
+
+.container-division-one {
+    width: 360px;
+}
+
+.container-logo {
+    padding-left: 30px;
+}
+
+nav {
+    margin-top: 126px;
+    
+}
+
+.container-list {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    line-height: 50px;
+    color: #ffffff;
+}
+
+.home {
+    display: flex;
+    background: #ffffff;
+    color: #FB6D3A;
+    border-radius: 32px 0px 0px 32px;
+    
+}
+
+.image-home {
+    display: flex;
+    align-items: center;
+    padding-right: 25px;
+}
+
+.progress {
+    display: flex;
+}
+
+.image-progress {
+    display: flex;
+    align-items: center;
+    padding-right:  25px;
+}
+
+.messages {
+    display: flex;
+}
+
+.image-messages {
+    display: flex;
+    align-items: center;
+    padding-right:  25px;
+}
+
+.settings {
+    display: flex;  
+}
+
+.image-settings {
+    display: flex;
+    align-items: center;
+    padding-right:  25px;
+}
+
+.container-image-24 {
+    margin-top: 142px;
+    padding-left: 30px;
+}
+
+
+/****** CONTAINER DIVISION TWO ******/
+.container-division-two {
+    border: 1px solid white;
+    background: #ffffff;
+    box-shadow: 0px 4px 48px rgba(0, 0, 0, 0.02);
+    border-radius: 48px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.container-icon-search {
+    padding-left: 68px;
+
+}
+
+.input-search {
+    width: 724px;
+    height: 60px;
+    padding-left: 72px;
+    font-size: 16px;
+    line-height: 24px;
+    background: #F6F6F5;
+    border: none;
+    border-radius: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.container-icon-user {
+    padding-left: 60px;
+    
+}
+
+.container-icon-notification {
+    padding-left: 32px;
+    padding-right: 68px;
+}
+
+/****** CONTAINER UNFINISHED COURSES ******/
+
+.container-unfinished-courses {
+
+}
+
+.container-title {
+    font-size: 28px;
+    margin-left: 93px;
+}
+
+*{box-sizing: border-box;}
+
+.container-courses {
+    display: flex;
+    border: 1px solid;
+
+}
+
+.course {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 390px;
+    margin-left: 85px;
+    background-image: url("images/unifished-one/mask-group.png");
+    background-repeat: no-repeat;
+    padding: 36px;
+    flex-basis: 440px;
+}
+
+.course-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.course-profile {
+    display: flex;
+    
+}
+
+.course-profile p {
+    color: #ffffff;
+    line-height: 13px;   
+}
+
+.container-image-group-34 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 68px;
+    height: 36px;
+    background: #FB6D3A;
+    backdrop-filter: blur(16px);
+    border-radius: 10px; 
+    font-size: 14px;
+    color: #ffffff;
+}
+
+
+
+.course-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 368px;
+    height: 88px;
+    backdrop-filter: blur(36px);
+    border-radius: 24px;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 27px;
+}
+
+
+.course-two {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 390px;
+    margin-left: 40px;
+    background-image: url("images/unifished-one/other-mask-group.png");
+    background-repeat: no-repeat;
+    padding: 36px;
+    flex-basis: 440px;
+}
+
+/****** CONTAINER LIVE LESSONS ******/
+
+.container-live-lessons {
+    border: 1px solid;
+}
+
+.container-lives {
+    border: 1px solid red;
+    display: flex;
+   
+}
+
+.live-one {
+    display: flex;
+    flex-direction: column;
+    height: 190px;
+    justify-content: flex-end;
+    background-image: url("images/live-lessons/image-live-one.png");
+    background-repeat: no-repeat;
+    padding: 22px;
+    
+}
+
+.live-two {
+    display: flex;
+    flex-direction: column;
+    height: 190px;
+    justify-content: flex-end;
+    background-image: url("images/live-lessons/image-live-two.png");
+    background-repeat: no-repeat;
+    padding: 22px;
+}
+
+.live-three {
+    display: flex;
+    flex-direction: column;
+    height: 190px;
+    justify-content: flex-end;
+    background-image: url("images/live-lessons/image-live-three.png");
+    background-repeat: no-repeat;
+    padding: 22px;
+}
+
+.live-four {
+    display: flex;
+    flex-direction: column;
+    height: 190px;
+    justify-content: flex-end;
+    background-image: url("images/live-lessons/image-live-four.png");
+    background-repeat: no-repeat;
+    padding: 22px;
+}
+
+.live-five {
+    display: flex;
+    flex-direction: column;
+    height: 190px;
+    justify-content: flex-end;
+    background-image: url("images/live-lessons/image-live-five.png");
+    background-repeat: no-repeat;
+    padding: 22px;
+}
+
+.live-six {
+    display: flex;
+    flex-direction: column;
+    height: 190px;
+    justify-content: flex-end;
+    background-image: url("images/live-lessons/image-live-six.png");
+    background-repeat: no-repeat;
+    padding: 22px;
+}
+
+.live-seven {
+    display: flex;
+    flex-direction: column;
+    height: 190px;
+    justify-content: flex-end;
+    background-image: url("images/live-lessons/image-live-seven.png");
+    background-repeat: no-repeat;
+    padding: 22px;
+}
+
+
+
+
+
