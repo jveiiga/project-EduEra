@@ -27,12 +27,21 @@ body {
 }
 
 .container-logo {
-    padding-left: 30px;
+    margin-left: 55px;
+    margin-top: 70px;
 }
 
 nav {
     margin-top: 126px;
-    
+}
+
+ul {
+    list-style: none;  
+}
+
+li a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .container-list {
@@ -41,6 +50,7 @@ nav {
     text-decoration: none;
     list-style: none;
     font-size: 18px;
+    font-weight: 400;
     line-height: 50px;
     color: #ffffff;
 }
@@ -79,16 +89,19 @@ nav {
     display: flex;
     align-items: center;
     padding-right: 25px;
+    padding-left: 20px;
 }
 
 .progress {
     display: flex;
+    color: #ffffff;
 }
 
 .image-progress {
     display: flex;
     align-items: center;
     padding-right:  25px;
+    padding-left: 20px;
 }
 
 .messages {
@@ -99,6 +112,7 @@ nav {
     display: flex;
     align-items: center;
     padding-right:  25px;
+    padding-left: 20px;
 }
 
 .settings {
@@ -109,12 +123,14 @@ nav {
     display: flex;
     align-items: center;
     padding-right:  25px;
+    padding-left: 20px;
 }
 
 .container-image-24 {
     background-image: url("images/support-24.png");
     background-repeat: no-repeat;
     margin-top: 142px;
+    margin-left: 60px;
     width: 236px;
     height: 300px;
 }
@@ -241,9 +257,11 @@ header {
     justify-content: center;
     width: 368px;
     height: 88px;
+    padding: 20px;
     backdrop-filter: blur(36px);
     border-radius: 24px;
     font-size: 18px;
+    font-weight: 300;
     color: #ffffff;
     line-height: 27px;
 }
@@ -414,4 +432,7 @@ header {
        width: 24px;
        height: 24px;
 }
+
+
+
 

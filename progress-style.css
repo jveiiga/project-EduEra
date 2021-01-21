@@ -1,0 +1,549 @@
+body {
+    margin: 0;
+    padding-top: 20px;
+    background: #503E9D;
+}
+/****** CONTAINER TOTAL ******/
+
+.container-total {
+    max-width: 1500px;
+    margin: 0 auto;
+    height: 100vh;
+    
+}
+
+/****** CONTAINER DIVISION ******/
+
+.container-division {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+/****** CONTAINER DIVISION ONE ******/
+
+.container-division-one {
+    width: 180px;
+}
+
+.container-logo {
+    margin-left: 30px;
+    margin-top: 70px;
+}
+
+nav {
+    margin-top: 126px;
+    
+}
+
+.container-list {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.home {
+    display: flex;
+  
+    
+}
+
+.image-home {
+    display: flex;
+    align-items: center;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+.progress {
+    display: flex;
+}
+
+.image-progress {
+    display: flex;
+    align-items: center;
+    padding-right:  25px;
+    padding-bottom: 35px;
+}
+
+.messages {
+    display: flex;
+}
+
+.image-messages {
+    display: flex;
+    align-items: center;
+    padding-right:  25px;
+    padding-bottom: 35px;
+}
+
+.settings {
+    display: flex;  
+}
+
+.image-settings {
+    display: flex;
+    align-items: center;
+    padding-right:  25px;
+}
+
+.container-image-phone {
+    background-image: url("images/phone.png");
+    background-repeat: no-repeat;
+    margin-top: 142px;
+    width: 56px;
+    height: 56px;
+    margin-left: 42px;
+    margin-top: 330px;
+}
+
+
+/****** CONTAINER DIVISION TWO ******/
+.container-division-two {
+   
+    background: #ffffff;
+    box-shadow: 0px 4px 48px rgba(0, 0, 0, 0.02);
+    border-radius: 48px;
+    padding-bottom: 50px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.container-icon-search {
+    padding-left: 68px;
+}
+
+.image-icon-search {
+    background-image: url("images/search.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1;
+    width: 24px;
+    height: 24px;
+    margin-top: -12px;
+    margin-left: 25px;
+}
+
+.input-search {
+    width: 889px;
+    height: 60px;
+    padding-left: 72px;
+    font-size: 16px;
+    line-height: 24px;
+    background: #F6F6F5;
+    border: none;
+    border-radius: 20px;
+    color: #B3B6B6;
+}
+
+.container-icon-user {
+    padding-left: 60px;
+    
+}
+
+.container-icon-notification {
+    padding-left: 32px;
+    padding-right: 68px;
+}
+
+/****** CONTAINER COURSE - SIMPLE SWIFT APP ******/
+
+.container-course-simple-swift {
+
+}
+
+.container-title {
+    display: flex;
+    font-size: 28px;
+    margin-left: 93px;
+}
+
+.title-lessons {
+    margin-left: 416px  
+}
+
+*{box-sizing: border-box;}
+
+.container-courses {
+    display: flex;  
+}
+
+.course {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 390px;
+
+    margin-left: 85px;
+    background-image: url("images/course-SimpleSwift.png");
+    background-repeat: no-repeat;
+    border-radius: 48px;    
+    padding: 36px;
+    flex-basis: 440px;
+}
+
+.image-play {
+    background-image: url("images/video-bar/play.png");
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 21px;
+    margin-top: 6px;  
+}
+
+.container-video-bar {
+    display: flex;
+    align-items: center;
+    width: 684px;
+    height: 36px;
+    margin-top: 290px;
+    backdrop-filter: blur(120px);
+    border-radius: 10px;
+    color: #ffffff;
+    
+}
+.video-velocity {
+    font-size: 12px;
+    color: #FFFFFF;
+    opacity: 0.3;
+    margin-left: 50px;
+}
+
+.video-bar {
+    width: 467px;
+    height: 20px;
+    margin-left: 20px;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(120px);
+    border-radius: 5px;
+}
+
+.video-time {
+    width: 203px;
+    height: 20px;
+    background: #FB6D3A;
+    backdrop-filter: blur(120px);
+    border-radius: 5px;
+    margin-left: -466px;
+}
+
+.timer-video {
+    font-size: 10px;
+    color: #FFC6B1;
+    margin-top: -6px;
+    margin-left: 10px;
+}
+
+.image-sound {
+    background-image: url("images/video-bar/sound.png");
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-left: 280px;
+    opacity: 0.3;
+    
+}
+
+.image-hd {
+    background-image: url("images/video-bar/hd.png");
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    opacity: 0.3;
+}
+
+.image-expand {
+    background-image: url("images/video-bar/expand.png");
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    opacity: 0.3;
+}
+
+/******** CONTAINER LESSONS *******/
+
+.container-course-settings {
+    display: flex;
+    flex-direction: column;
+    height: 436px;
+    width: 348px;
+    margin-left: 40px;
+    line-height: 35px;
+}
+.container-custon-control {
+    display: flex; 
+}
+
+.image-custon-control {
+    background-image: url("images/lessons/key.png");
+    width: 56px;
+    height: 56px;  
+}
+
+.container-text-custon-control {
+    margin-left: 15px;
+}
+
+.text-custon-control {
+    margin-top: -12px;
+    line-height: 27px;
+    letter-spacing: 0.90px;
+}
+
+.caption-custon-control {
+    font-size: 14px;
+    font-weight: 300;
+    color: #B3B6B6;
+    margin-top: -15px;
+}
+
+.border-detail {
+    border: 1px solid #F1F1EF;
+    width: 200px;
+}
+
+.container-create-table-view {
+    display: flex; 
+}
+
+.image-create-table-view {
+    background-image: url("images/lessons/table.png");
+    width: 56px;
+    height: 56px;  
+}
+
+.container-text-create-table-view {
+    margin-left: 15px;
+}
+
+.text-create-table-view {
+    margin-top: -12px;
+    line-height: 27px;
+    letter-spacing: 0.90px;
+}
+
+.caption-create-table-view {
+    font-size: 14px;
+    font-weight: 300;
+    color: #B3B6B6;
+    margin-top: -15px;
+}   
+
+.container-implement-navigation {
+    display: flex; 
+}
+
+.image-implement-navigation {
+    background-image: url("images/lessons/hamburguinho.png");
+    width: 56px;
+    height: 56px;  
+}
+
+.container-text-implement-navigation {
+    margin-left: 15px;
+}
+
+.text-implement-navigation {
+    margin-top: -12px;
+    line-height: 27px;
+    letter-spacing: 0.90px;
+}
+
+.caption-implement-navigation {
+    font-size: 14px;
+    font-weight: 300;
+    color: #B3B6B6;
+    margin-top: -15px;
+}
+
+.container-implement-edit {
+    display: flex; 
+}
+
+.image-implement-edit {
+    background-image: url("images/lessons/pen.png");
+    width: 56px;
+    height: 56px;  
+}
+
+.container-text-implement-edit {
+    margin-left: 15px;
+}
+
+.text-implement-edit {
+    margin-top: -12px;
+    line-height: 27px;
+    letter-spacing: 0.90px;
+}
+
+.caption-implement-edit {
+    font-size: 14px;
+    font-weight: 300;
+    color: #B3B6B6;
+    margin-top: -15px;
+}
+
+.container-persist-data {
+    display: flex; 
+}
+
+.image-persist-data {
+    background-image: url("images/lessons/data.png");
+    width: 56px;
+    height: 56px;  
+}
+
+.container-text-persist-data {
+    margin-left: 15px;
+}
+
+.text-persist-data {
+    margin-top: -12px;
+    line-height: 27px;
+    letter-spacing: 0.90px;
+}
+
+.caption-persist-data {
+    font-size: 14px;
+    font-weight: 300;
+    color: #B3B6B6;
+    margin-top: -15px;
+}
+
+
+/************ CONTAINER LESSON **********/
+
+.container-total-lesson-six {
+    display: flex;
+    width: 1100px;
+    height: 222px;
+    margin-left: 86px;
+    margin-top: -20px;
+}
+
+.container-division-one {
+    width: 758px;
+    height: 218px;
+}
+
+.container-lesson-six {
+    display: flex;
+    width: 756px;
+    height: 88px;
+}
+
+.image-lesson-six {
+    background-image: url("images/unifished-one/Group\ 34.png");
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    margin-top: -9px;
+}
+
+.title-lesson-six {
+    font-size: 24px;
+    color: #181B1A;
+    margin-left: 20px;
+    margin-top: -27px;
+}
+
+.container-tag-name-instagram {
+    display: flex;
+}
+.tag-name-instagram {
+    font-size: 16px;
+    font-weight: 300;
+    color: #B3B6B6;
+    margin-left: 20px;
+    margin-top: -27px;
+}
+
+.image-tag-name-instagram {
+    background-image: url("images/lessons6/confirm.png");
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-top: -22px;
+    margin-left: 10px;
+}   
+
+.container-feedback {
+    display: flex;
+    margin-left: 95px;
+    margin-top: 26px;
+}
+
+.image-like {
+    background-image: url("images/lessons6/like.png");
+    background-repeat: no-repeat;
+    width: 58px;
+    height: 25px;
+}
+
+.image-deslike {
+    background-image: url("images/lessons6/deslike.png");
+    background-repeat: no-repeat;
+    width: 42px;
+    height: 24px;
+    margin-left: 24px;
+}
+
+.image-toshare {
+    background-image: url("images/lessons6/to-share.png");
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    margin-left: 24px;
+}
+
+.border-detail-division {
+    border: 1px solid;
+    color: #F1F1EF;
+    width: 756px;
+}
+
+.container-text-lesson-six {
+    width: 756px;
+    height: 128px;
+}
+
+.text-lesson-six {
+    font-size: 14px;
+    font-weight: 400;
+    color: #181B1A;
+}
+
+.container-notification {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 11px;
+    width: 350px;
+    height: 213px;
+}
+
+.image-document {
+    background-image: url("images/lessons6/document.png");
+    background-repeat: no-repeat;
+    width: 128px;
+    height: 218px;
+}
+
+.image-morenotification {
+    background-image: url("images/lessons6/morenotication.png");
+    background-repeat: no-repeat;
+    width: 128px;
+    height: 218px;
+}
+
+
