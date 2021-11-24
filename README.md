@@ -1,7 +1,7 @@
 <h1 align="center">Project EduEra&nbsp💻<h1/>
 
   <img alt="GitHub" src="https://img.shields.io/github/license/jveiiga/project-EduEra">
-  <img alt="GitHub" src="https://img.shields.io/badge/jveiiga-project%20EduEra-yellow">
+  <img alt="GitHub" src="https://img.shields.io/badge/jveiiga-project%20EduEra-blueviolet">
  
 <h3 align="center">Layout Free Figma<h3/> 
 <h3 align="center">Conceitos utilizados a partir da minha base de conhecimento (Júnior).<h3/>
@@ -14,9 +14,16 @@
 <h2 align="center"><a href="https://jveiiga.github.io/project-EduEra/" alt="MNTN" target="_blank">Clique aqui para ver meu projeto final!<a/><h2> 
   
 ## 🖥  Imagem
- 
+  
+<details>  
+<summary>Clique para ver imagens do projeto</summary>  
+
 ![_Users_jefersonveiga_Documents_new-project_project-EduEra_index html](https://user-images.githubusercontent.com/57195630/126832644-ddc3e1be-feb1-4adb-b0a3-d95e73e03250.png)
 ![_Users_jefersonveiga_Documents_new-project_project-EduEra_progress html](https://user-images.githubusercontent.com/57195630/126832729-0b67ba70-5b37-4df4-b502-c8783d04482c.png)
+  
+</details>
+ 
+
 
 ## 🌐 Linguagens e tecnologias utilizadas
 <a href="https://www.figma.com/file/mgIeVi2bciBlf117kQNzXJ/Online-Learning-Platform-Community" target="_blank"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40" /> </a>
